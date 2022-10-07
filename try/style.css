@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+section{
+    width: 100%;
+    height: 100vh;
+    /* background-color: antiquewhite; */
+    background: url(https://media.istockphoto.com/photos/award-sparkling-background-picture-id1220754002?b=1&k=20&m=1220754002&s=170667a&w=0&h=pV5JKXJ7DmdJM8i662txIBFdG2pYrr-my4HlXqPFPNU=);
+    background-size: cover;
+}
+ section .left-box{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+ }
+ section .left-box .content{
+   color: #fff;
+   background: #4f585a;
+   padding: 40px;
+   transition: .5s;
+ }
+ section .left-box .content:hover{
+    background: #25b9e5;
+ }
+ section .left-box .content h1{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+ }
+ section .left-box .content p{
+    margin: 10px  0;
+    padding: 0;
+ }
+
+ section .event{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: right;
+    box-sizing: border-box;
+ }
+  section .event ul{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+  
+  }
+section .event ul li{
+    list-style: none;
+    background: #fff;
+    box-sizing: border-box;
+    height: 194px;
+    margin: 15px 0;
+    
+}
+section .event ul li .time {
+    position: relative;
+    padding: 20px;
+    background: #03313e52;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    transition: .5s;
+}
+section .event ul li:hover .time {
+    background: #25b9e5;
+}
+section .event ul li .time h2{
+position: absolute;
+margin: 0;
+padding: 0;
+top: 50%;
+left: 50%;
+transform: translate( -50%, -50%);
+color: #fff;
+font-size: 30px;
+line-height: 30px;
+}
+section .event ul li .time h2 span {
+    font-size: 30px;
+}
+  
+section .event ul li .details{
+padding: 20px;
+background: #fff;
+box-sizing: border-box;
+width: 70%;
+height: 100%;
+float: left;
+}
+section .event ul li .details h2{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+section .event ul li .details p{
+    position: relative;
+        margin: 10px 0 0;
+        padding: 0;
+        font-size: 16px;
+}
+section .event ul li .details a{
+    display: inline-block;
+        text-decoration: none;
+        padding: 5px 10px;
+        border: 1.5px solid #262626;
+        margin-top: 8px;
+        font-size: 18px;
+        transition: .5s;
+        color: #cb142d;
+}
+section .event ul li .details a:hover {
+    background: #25b9e5;
+    color: #fff;
+    border-color: #25b9e5;
+}
+
